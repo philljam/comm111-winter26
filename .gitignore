@@ -1,3 +1,6 @@
+# nopublish folder
+nopublish/*
+
 # History files
 .Rhistory
 .Rapp.history
