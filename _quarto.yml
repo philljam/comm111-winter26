@@ -1,0 +1,30 @@
+project: 
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+    - "!nopublish/"
+    
+website:
+  title: "COMM 111"
+  description: "Public Speaking"
+  navbar:
+    left:
+    - href: w26syllabus.qmd
+      text: Syllabus
+    right:
+    - href: w26assignments.qmd
+      text: Assignments
+    - href: w26schedule.qmd
+      text: Schedule
+    - href: w26slides.qmd
+      text: Slides
+      
+format:
+  html:
+    theme: cosmo
+    toc: true
+    mainfont: "Aptos (Body)"
+    
+execute:
+  freeze: auto
