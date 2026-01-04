@@ -9,4 +9,6 @@ format:
   html: default
 ---
   
-  ## Winter 2026 Hello and welcome to Public Speaking! This course is meant to familiarize you with concepts related to delivering speeches to audiences in both formal and informal settings.
+## Winter 2026
+
+Hello and welcome to Public Speaking! This course is meant to familiarize you with concepts related to delivering speeches to audiences in both formal and informal settings.
