@@ -6,7 +6,7 @@ project:
     - "!nopublish/"
     
 website:
-  title: "COMM 111"
+  title: "COMM 111Z"
   description: "Public Speaking"
   navbar:
     left:
