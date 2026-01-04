@@ -1,0 +1,97 @@
+.course-header table {
+  border: none !important;
+  border-collapse: collapse;
+}
+.course-header th,
+.course-header td {
+  border: none !important;
+  padding: 0.15rem 0.6rem !important;
+  line-height: 1.2 !important;
+  vertical-align: top;
+}
+.course-header p {
+  margin: 0 !important;
+}
+.course-header table > :not(caption) > * > * {
+  border-bottom-width: 0 !important;
+}
+.tasks-table table {
+  border-collapse: collapse;
+  border: none !important;
+}
+.tasks-table th,
+.tasks-table td {
+  padding: 0.15rem 0.6rem !important;
+  line-height: 1.2 !important;
+  vertical-align: top;
+  border: none !important;
+}
+.tasks-table table > :not(caption) > * > * {
+  border-bottom-width: 0 !important;
+}
+.tasks-table tbody tr:last-child td {
+  border-top: 1px solid #000 !important;
+}
+.grade-table table {
+  width: auto !important;
+  max-width: none !important;
+  display: inline-table;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: none;
+}
+.grade-table thead {
+  display: none;
+}
+.grade-table th,
+.grade-table td {
+  border: none !important;
+  padding: 0.15rem 0.5rem;
+  line-height: 1.2;
+  text-align: left;
+  vertical-align: top;
+}
+.grade-table td:nth-child(1),
+.grade-table td:nth-child(3) {
+  white-space: nowrap;
+}
+.grade-table td:nth-child(2),
+.grade-table td:nth-child(4) {
+  white-space: nowrap;
+  padding-left: 0.25rem;
+}
+.grade-table td:nth-child(2) {
+  padding-right: 6rem;
+}
+.indented p {
+  margin-left: 2em;
+}
+.week-table table {
+  width: 100%;
+  border: 2px solid #000 !important;
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+  table-layout: fixed;
+}
+.week-table thead th {
+  background-color: #03396a;
+  color: #fff;
+  font-weight: 600;
+  text-align: left;
+  padding: 0.65rem 0.75rem;
+}
+.week-table th,
+.week-table td {
+  border: none !important;
+  overflow-wrap: anywhere;
+}
+.week-table tbody tr:nth-child(odd) {
+  background-color: #f3f3f3;
+}
+.week-table tbody tr:nth-child(even) {
+  background-color: #ffffff;
+}
+.week-table table { table-layout: fixed !important; }
+.week-table th,
+.week-table td { white-space: normal !important; }
+
