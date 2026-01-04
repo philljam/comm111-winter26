@@ -9,17 +9,6 @@ execute:
   warning: false
 ---
 
-```{r}
-library(tidyverse)
-library(here)
-library(readxl)
-library(fontawesome)
-library(gt)
-library(xfun)
-library(htmltools)
-library(mime)
-```
-
 This page will be updated regularly to include links to assignment submission pages, which includes assignment-specific information, as well as to have accessible lecture slides for you to review.
 
 ### Week 1: Thinking About Public Speaking

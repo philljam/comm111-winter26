@@ -17,13 +17,6 @@ execute:
 ```{r}
 #| include: false
 
-library(tidyverse)
-library(here)
-library(knitr)
-library(kableExtra)
-library(readxl)
-library(fontawesome)
-library(gt)
 library(tinytex)
 ```
 
