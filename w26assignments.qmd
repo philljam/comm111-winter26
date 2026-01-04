@@ -44,7 +44,7 @@ table_style <- function(data) {
 }
 ```
 
-As listed in the [Syllabus](w26syllabus.qmd), the following assignments will largely take place in class, with a few supplemental materials being turned in via Moodle. Each assignment is outlined below.
+As listed in the [Syllabus](w26syllabus.qmd), the following assignments will largely take place in class, with a few supplemental materials being turned in via Moodle. Each assignment is outlined in detail below.
 
 ```{r}
 tibble::tribble(

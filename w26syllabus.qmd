@@ -1,26 +1,149 @@
 ---
 title: "Syllabus"
-format: html
-editor: visual
+format: 
+  html: 
+    toc: true
+    embed-resources: true
+  pdf:
+    toc: false
+    documentclass: article
+    fontsize: 11pt
+    geometry: margin=1in
+execute:
+  echo: false
+  warning: false
 ---
 
-## Quarto
-
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
-
-## Running Code
-
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
-
 ```{r}
-1 + 1
+#| include: false
+
+library(tidyverse)
+library(here)
+library(knitr)
+library(kableExtra)
+library(readxl)
+library(fontawesome)
+library(gt)
+library(tinytex)
 ```
 
-You can add options to executable code like this
+### Course Information
 
-```{r}
-#| echo: false
-2 * 2
-```
+::: course-header
+|                                     |                                   |
+|-------------------------------------|-----------------------------------|
+| **Course:** Public Speaking         | **Instructor:** James Phillips    |
+| **Course #:** COMM 111Z             | **Office:** CEN 439H              |
+| **Credits:** 4                      | **Office Hours:** Tuesdays 12p–1p |
+| **Reg. #:** 32782                   | **Email:** phillipsj\@lanecc.edu  |
+| **Course Days/Time:** Tu/Th 1–2:50p | **Course Location:** CEN 308      |
+:::
 
-The `echo: false` option disables the printing of code (only output is displayed).
+### Textbooks
+
+-   *Stand Up, Speak Out: The Practice and Ethics of Public Speaking.* (2016). Minneapolis, MN: University of Minnesota Libraries Publishing.
+-   *Exploring Public Speaking (4th Edition)*. (2019). Dalton, GA: Dalton State College.
+
+### Course Description
+
+COMM 111Z emphasizes developing communication skills by examining and demonstrating how self-awareness, audience, content, and occasion influence the creation and delivery of speeches and presentations. This course is part of the Oregon Common Course Numbering System.
+
+### Competencies and Objectives
+
+At the conclusion of the course it is expected that students will demonstrate knowledge and skills in several core areas. Specifically, students should demonstrate an increased understanding of the course learning outcomes outlined below.
+
+### Course Learning Outcomes
+
+Upon successful completion of this course, students will be able to:
+
+1.  Develop messages for diverse audiences, purposes, and contexts.
+2.  Identify and utilize skills to manage communication apprehension.
+3.  Deliver and adapt speeches and/or presentations to live audiences.
+4.  Evaluate public speeches, including their own, by identifying aspects of preparation, credibility, logic, and delivery.
+
+### Lane's Core Learning Outcomes
+
+In addition to individual course outcomes provided for each course you’ll take here, Lane Community College also has a set of five Core Learning Outcomes (CLOs) that are central to the education approach that is at the heart of Lane. We will consistently be engaging with the 5 CLOs throughout the course. They are:
+
+1.  Think Critically
+2.  Engage Diverse Values with Civic and Ethical Awareness
+3.  Create Ideas and Solutions
+4.  Communicate Effectively
+5.  Apply Learning
+
+To find out more, you can visit [Lane's Core Learning Outcomes page](http://www.lanecc.edu/assessment/core-learning-outcomes).
+
+### Important Information About Your Speeches and Outlines for this Class
+
+In order to strengthen the speech and communication programs at Lane Community College, public speaking faculty collect a range of sample student speeches to be used strictly for program assessment. Your name, L#, course CRN, and other personally identifying information are removed from all content submitted for this purpose in order to ensure, within reasonable limits, that they remain anonymous.
+
+### Course Tasks
+
+The following material is created to comprehensively address the key learning objectives of the course, familiarize you with different elements of public speaking, and provide opportunities to deliver a variety of speeches that specialize in different applicable areas. Each assignment's detailed description can be found on the [Assignments](w26assignments.qmd) page.
+
+::: tasks-table
+|                                 |                                |
+|---------------------------------|--------------------------------|
+| Syllabus Quiz                   | 10 points                      |
+| Lecture Quizzes                 | 80 points (4 x 20 points each) |
+| Speech Analyses                 | 50 points (2 x 25 points each) |
+| "Tell Me About Yourself" Speech | 25 points                      |
+| Informative Speech              | 100 points                     |
+| Informative Speech Critiques    | 30 points (2 x 15 points each) |
+| Impromptu Speech                | 20 points                      |
+| Advocacy Speech                 | 100 points                     |
+| Advocacy Speech Critiques       | 30 points (2 x 15 points each) |
+| "Nostalgia" Speech              | 25 points                      |
+| Commitment                      | 30 points                      |
+| ***Total***                     | ***500 points***               |
+:::
+
+### Grades
+
+All graded assessments will be posted within 7 days of the due date. As a best practice, this class uses a **24-hour cooldown rule** in which it is recommended you wait one day before reaching out to me to discuss a grade (good or bad). This allows calmer minds to prevail in the event of an undesirable grade. In total, you can earn 500 points (excluding potential extra credit opportunities). Cumulative grades are based on points earned on course tasks and through class commitment as outlined below:
+
+::: grade-table
+|                          |     |                         |     |
+|--------------------------|-----|-------------------------|-----|
+| 450–500 points (90–100%) | A   | 300–349 points (60–69%) | D   |
+| 400–449 points (80–89%)  | B   | 0–299 points (0–59%)    | F   |
+| 350–399 points (70–79%)  | C   |                         |     |
+:::
+
+### Late Work
+
+Late work will be accepted up to 7 days after the initial due date with a 10% penalty. After 7 days has elapsed, the assignment will no longer be accepted. Outside of unique circumstances, this penalty is non-negotiable; however, if you believe your circumstances to be fitting of a unique description, you can reach out to me to discuss options. If you miss a class and do not give me prior notice, and if something was due during that class, your late work will **not** be accepted.
+
+### Classroom Atmosphere
+
+A core element to our shared learning experience is rooted in how we engage and respect each other. Because you will be giving speeches that inform and advocate for change, there may be topics which people have widely different perspectives on, and it is important that we maintain mutual respect and an open mind during discussion. A healthy learning environment is key to mindful conversation and the development of skills and information that will remain with you well after you have left this classroom. As such, please refrain from discourteous behavior when engaging with each other. All these elements will make this experience much better for you and your peers.
+
+### Attendance
+
+I will be actively taking attendance throughout the class as this is a component of your commitment grade. Showing up is the first step to participation and collaboration, meaning without you being in class, it will be extremely difficult to achieve any success. That said, I also acknowledge that things come up. You are allowed two unexcused absences (meaning no questions asked) before you start to see any impact to your grade. All I ask is that if you are going to miss class, you let me know beforehand.
+
+### Tech Policy & Etiquette
+
+Computers and tablets are allowed in the classroom for educational purposes. However, cell phones tend to prove more distracting than useful, not just to yourself but to those around you as well. To try and curb this, active and frequent cell phone use is not permitted except under considerably extenuating circumstances. Please also make sure that during class time, your phones are set to **silent**. I will not confiscate a phone, but habitual use may result in your commitment grade being negatively impacted. As well, in the spirit of encouraging good etiquette when others are speaking, use of disruptive technology, being generally disruptive (i.e., leaving or entering the room when someone is presenting), and anything else that might otherwise hamper a student's ability to successfully deliver their speech **will result in a negative impact to your speech grade of -5% off your total possible score**. This penalty is also not a one-time thing; if you continue to be disruptive, **you will continue to lose points**.
+
+### Student Support Groups
+
+As we will be spending the next ten weeks together, and because things like an illness or a broken-down car can happen, I strongly advise you to make acquaintances with the people around you so that you have a localized support network. This will give you someone to reach out to for notes or a recap on a class in the event you are absent. Plus, this is a communication class, and I wouldn’t be doing a good job of encouraging that if I didn’t present you with various opportunities to learn diverse communication strategies.
+
+### Correspondence
+
+The most effective way to communicate with me outside of the classroom is via email (to [phillipsj\@lanecc.edu](mailto:phillipsj@lanecc.edu)) or a message via Moodle. In the interest of helping you learn effective communication skills, I do ask that you practice some formality with your correspondence. If you contact me via email, please **make sure it comes from your LCC email address**, as it is almost guaranteed that the email will be sorted into spam if sent from a personal email. In a email, please include your full name and the class name in the body of the email, preferably in the first sentence. I will endeavor to respond to emails within 24 hours, but I cannot guarantee as timely a response if the email is sent over the weekend.
+
+### Important College Calendar Dates for the Term:
+
+::: {.indented}
+January 12th – Last day to receive refund\
+January 19th – Martin Luther King, Jr. Day, ***campus closed***\
+February 16th – Presidents Day, ***campus closed***\
+February 27th – Last day for schedule changes\
+March 21st – Winter term ends
+:::
+
+### Accessibility & Accommodation
+
+To request assistance or accommodations, contact the Center for Accessible Resources at (541) 463-5150 or [AccessibleResources@lanecc.edu](mailto:AccessibleResources@lanecc.edu). Please be aware that any accessible tables and chairs in this room should remain available for authorized students who find that standard classroom seating is not usable.
