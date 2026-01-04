@@ -1,0 +1,8 @@
+---
+title: "COMM 111Z: Public Speaking"
+execute: 
+  echo: false
+  warning: false
+  freeze: false
+toc: false
+---
