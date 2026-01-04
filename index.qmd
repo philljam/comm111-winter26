@@ -4,9 +4,9 @@ execute:
   echo: false
   warning: false
   freeze: false
-  toc: false
 format:
-  html: default
+  html: 
+    toc: false
 ---
   
 ## Winter 2026
