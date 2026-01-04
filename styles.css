@@ -76,6 +76,7 @@
 .week-table thead th {
   background-color: #03396a;
   color: #fff;
+  font-weight: 400;
   text-align: left;
   padding: 0.65rem 0.75rem;
 }
@@ -93,4 +94,7 @@
 .week-table table { table-layout: fixed !important; }
 .week-table th,
 .week-table td { white-space: normal !important; }
-
+body {
+  font-family: "Aptos", system-ui, -apple-system, "Segoe UI",
+               Roboto, "Helvetica Neue", Arial, sans-serif;
+}
