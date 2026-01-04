@@ -1,5 +1,6 @@
 ---
 title: "COMM 111Z: Public Speaking"
+subtitle: "Winter 2026"
 execute:
   echo: false
   warning: false
@@ -8,7 +9,23 @@ format:
   html: 
     toc: false
 ---
-  
-## Winter 2026
 
-Hello and welcome to Public Speaking! This course is meant to familiarize you with concepts related to delivering speeches to audiences in both formal and informal settings.
+Hello and welcome to Public Speaking! This course is meant to familiarize you with concepts related to delivering speeches to audiences in both formal and informal settings. Below are links to important information about the course and course resources that will be helpful throughout the term. Familiarize yourself with the resources below. Once you have thoroughly reviewed them, you may proceed through the course by first checking out the course [Syllabus](w26syllabus.qmd) for a complete listing of course-related information and expectations, as well as my classroom-specific policies. Next, I would recommend looking at the [Assignments](w26assignments.qmd) page for a more thorough breakdown of the workload expectation in this class, and the [Schedule](w26schedule.qmd) page for a week-by-week run-through.
+
+## Course Resources
+
+#### ["Stand Up, Speak Out: The Practice and Ethics of Public Speaking" Textbook](https://drive.google.com/open?id=1Oyml6sr4H9LUu1if-oBXjtZPfmcR-3r9)
+
+#### ["Exploring Public Speaking" Textbook](https://drive.google.com/file/d/1vCNhMCI-3J-6VGomuPvn8FevaO3A7bko/view?usp=drive_link)
+
+## Additional Resources
+
+##### [Advice For Sending Professors Emails](https://www.insidehighered.com/views/2015/04/16/advice-students-so-they-dont-sound-silly-emails-essay)
+
+##### [APA Formatting Tutorial](https://www.youtube.com/watch?v=VEqRqSsNDjc)
+
+##### [APA Citation Guide - Purdue Online Writing Lab (OWL)](https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_style_introduction.html)
+
+##### [Google Scholar](https://scholar.google.com/)
+
+##### [MyBib Reference List Generator](https://www.mybib.com/#/)
