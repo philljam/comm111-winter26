@@ -20,19 +20,20 @@ library(htmltools)
 library(mime)
 ```
 
-***This schedule is tentative and subject to change at the instructor's discretion.***
+This page will be updated regularly to include links to assignment submission pages, which includes assignment-specific information, as well as to have accessible lecture slides for you to review.
 
 ### Week 1: Thinking About Public Speaking
 
 ::: {.week-table tbl-colwidths="[20,20,40,20]"}
-+---------------------------------------------------------------------------------------+-----------------------------------------+----------------------------------------------------------------------------------------------------------------+---------------------+
-| Content                                                                               | Lectures                                | Readings                                                                                                       | Assignments         |
-+=======================================================================================+=========================================+================================================================================================================+=====================+
-| Introduction to the Course; Why Public Speaking Matters; Ethics; Speaking Confidently | The Bigger Questions of Public Speaking | [*"Stand Up, Speak Out"*]{.underline}\                                                                         | ***Syllabus Quiz*** |
-|                                                                                       |                                         | Why Public Speaking Matters - [Chapter 1](https://drive.google.com/open?id=1eW6GuodbB7qZsEVSWnib1mRyQp17ugeY)\ |                     |
-|                                                                                       |                                         | Ethics - [Chapter 2](https://drive.google.com/open?id=1sRb372zzEWWy-RdT_mWUdemXfHlAjZqP)\                      |                     |
-|                                                                                       |                                         | Speaking Confidently - [Chapter 3](https://drive.google.com/open?id=1gqsEWOv-FgEgDhGCKi64mPayeCIAQ_yu)         |                     |
-+---------------------------------------------------------------------------------------+-----------------------------------------+----------------------------------------------------------------------------------------------------------------+---------------------+
++---------------------------------------------------------------------------------------+-----------------------------------------+--------------------------------------------------------------------------------------------------------+---------------------+
+| Content                                                                               | Lectures                                | Readings                                                                                               | Assignments         |
++=======================================================================================+=========================================+========================================================================================================+=====================+
+| Introduction to the Course; Why Public Speaking Matters; Ethics; Speaking Confidently | The Bigger Questions of Public Speaking | [*"Stand Up, Speak Out"*]{.underline}\                                                                 | ***Syllabus Quiz*** |
+|                                                                                       |                                         | Why Public\                                                                                            |                     |
+|                                                                                       |                                         | Speaking Matters - [Chapter 1](https://drive.google.com/open?id=1eW6GuodbB7qZsEVSWnib1mRyQp17ugeY)\    |                     |
+|                                                                                       |                                         | Ethics - [Chapter 2](https://drive.google.com/open?id=1sRb372zzEWWy-RdT_mWUdemXfHlAjZqP)\              |                     |
+|                                                                                       |                                         | Speaking Confidently - [Chapter 3](https://drive.google.com/open?id=1gqsEWOv-FgEgDhGCKi64mPayeCIAQ_yu) |                     |
++---------------------------------------------------------------------------------------+-----------------------------------------+--------------------------------------------------------------------------------------------------------+---------------------+
 :::
 
 ### Week 2: Preparing to Speak
@@ -166,3 +167,5 @@ library(mime)
 | Finals Week |            |            | ***NOTHING. Happy Spring Break!*** |
 +-------------+------------+------------+------------------------------------+
 :::
+
+***\*This schedule is tentative and subject to change at the instructor's discretion.***
