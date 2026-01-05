@@ -11,7 +11,24 @@ execute:
 
 Below are copies of all files available for the class, including assignment descriptions and accompanying rubrics, templates, and more.
 
-#### Assignments
+#### Assignment Details & Descriptions
 
 ##### ["Tell Me About Yourself" Speech](classfiles/Tell%20Me%20About%20Yourself%20Speech%20Description.pdf)
-##### [Informative Speech](Informative%20Speech%20Assignment%20Description.pdf)
+##### [Informative Speech](classfiles/Informative%20Speech%20Assignment%20Description.pdf)
+##### [Advocacy Speech](classfiles/Advocacy%20Speech%20Assignment%20Details.pdf)
+##### ["Nostalgia" Speech](classfiles/Nostalgia%20Speech%20Description.pdf)
+
+#### Outline Templates & Samples
+
+##### [Informative Speech Outline Template](classfiles/Informative%20Speech%20Outline.docx)
+##### [Informative Speech Outline Sample](classfiles/Sample%20Informative%20Speech%20Outline.pdf)
+##### [Advocacy Speech Outline Template](classfiles/Advocacy%20Speech%20Outline.docx)
+##### [Advocacy Speech Outline Sample](classfiles/Sample%20Advocacy%20Speech%20Outline.pdf)
+##### [Speech Critique Template](classfiles/Speech%20Critique%20Template.docx)
+##### [Speech Critique Sample](classfiles/Sample%20Speech%20Critique.pdf)
+##### [Speech Analysis Sample](classfiles/Sample%20Speech%20Analysis.pdf)
+
+#### Speech Topic Ideas
+
+##### [Informative Speech Sample Topics](classfiles/Informative%20Speech%20Sample%20Topics.pdf)
+##### [Advocacy Speech Sample Topics](classfiles/Advocacy%20Speech%20Sample%20Topics.pdf)
