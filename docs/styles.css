@@ -15,6 +15,10 @@
 .course-header table > :not(caption) > * > * {
   border-bottom-width: 0 !important;
 }
+body {
+  font-family: "Aptos", system-ui, -apple-system, "Segoe UI",
+               Roboto, "Helvetica Neue", Arial, sans-serif;
+}
 .tasks-table table {
   border-collapse: collapse;
   border: none !important;
@@ -66,35 +70,48 @@
 .indented p {
   margin-left: 2em;
 }
-.week-table table {
-  width: 100%;
+table.gt_table {
+  border-collapse: collapse !important;
   border: 2px solid #000 !important;
-  border-collapse: separate !important;
-  border-spacing: 0 !important;
-  table-layout: fixed;
+  box-shadow: inset 0 2px 0 #000, inset 0 -2px 0 #000;
+  font-size: 1rem !important;
+  line-height: 1.4 !important;
+  font-weight: 400 !important;
+  table-layout: fixed !important;
+  width: 100% !important;
 }
-.week-table thead th {
-  background-color: #03396a;
-  color: #fff;
-  font-weight: 400;
-  text-align: left;
-  padding: 0.65rem 0.75rem;
-}
-.week-table th,
-.week-table td {
+table.gt_table thead th {
+  background-color: #03396a !important;
+  color: #f3f3f3 !important;
+  padding: 0.8rem 0.4rem !important;
+  text-align: left !important;
   border: none !important;
-  overflow-wrap: anywhere;
 }
-.week-table tbody tr:nth-child(odd) {
-  background-color: #f3f3f3;
+table.gt_table tbody td {
+  vertical-align: top !important;
+  padding: 0.6rem 0.4rem !important;
+  border: none !important;
 }
-.week-table tbody tr:nth-child(even) {
-  background-color: #ffffff;
+table.gt_table thead tr:first-child th {
+  box-shadow: inset 0 2px 0 #000;
 }
-.week-table table { table-layout: fixed !important; }
-.week-table th,
-.week-table td { white-space: normal !important; }
-body {
-  font-family: "Aptos", system-ui, -apple-system, "Segoe UI",
-               Roboto, "Helvetica Neue", Arial, sans-serif;
+table.gt_table tbody tr:last-child td {
+  box-shadow: inset 0 -2px 0 #000;
 }
+table.gt_table colgroup col:nth-child(1) { width: 16% !important; }
+table.gt_table colgroup col:nth-child(2) { width: 25% !important; }
+table.gt_table colgroup col:nth-child(3) { width: 36% !important; }
+table.gt_table colgroup col:nth-child(4) { width: 23% !important; }
+
+.schedule-tight table.gt_table {
+  table-layout: fixed !important;
+  width: 100% !important;
+}
+.schedule-tight table.gt_table thead th:nth-child(1),
+.schedule-tight table.gt_table tbody td:nth-child(1) { width: 16% !important; }
+.schedule-tight table.gt_table thead th:nth-child(2),
+.schedule-tight table.gt_table tbody td:nth-child(2) { width: 25% !important; }
+.schedule-tight table.gt_table thead th:nth-child(3),
+.schedule-tight table.gt_table tbody td:nth-child(3) { width: 36% !important; }
+.schedule-tight table.gt_table thead th:nth-child(4),
+.schedule-tight table.gt_table tbody td:nth-child(4) { width: 23% !important; }
