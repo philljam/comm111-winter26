@@ -73,6 +73,7 @@ body {
 table.gt_table {
   border-collapse: collapse !important;
   border: 2px solid #000 !important;
+  box-shadow: inset 0 2px 0 #000, inset 0 -2px 0 #000;
   font-size: 1rem !important;
   line-height: 1.4 !important;
   font-weight: 400 !important;
@@ -91,11 +92,14 @@ table.gt_table tbody td {
   padding: 0.6rem 0.4rem !important;
   border: none !important;
 }
-table.gt_table tbody tr:nth-child(odd) td {
+table.gt_table tbody tr:nth-child(odd) > td {
   background-color: #f3f3f3 !important;
 }
-table.gt_table tbody tr:nth-child(even) td {
+table.gt_table tbody tr:nth-child(even) > td {
   background-color: #ffffff !important;
+}
+table.gt_table tbody tr:only-child > td {
+  background-color: #f3f3f3 !important;
 }
 table.gt_table thead tr:first-child th {
   box-shadow: inset 0 2px 0 #000;
