@@ -64,6 +64,49 @@ schedule |>
 
 ### Week 2: Preparing to Speak
 
+```{r}
+schedule <- tibble(
+  Content = c(
+    "Listening; Audience Analysis; Language",
+    ""
+  ),
+  Lectures = c(
+    "Listening as Part of Public Speaking",
+    "Audience Analysis, Values, and Language"
+  ),
+  Readings = c(
+    paste0(
+      '<u>*"Stand Up, Speak Out"*</u><br>',
+      "Listening - [Chapter 4](https://drive.google.com/open?id=1vuKb_0PVgH7dC8n1xPZ2apZ7RcobbF99)<br>",
+      "Audience Analysis - [Chapter 5](https://drive.google.com/open?id=1I76Wjvaxjapi1vBDQdbEfkkryICk_boV)<br>",
+      "Language - [Chapter 13](https://drive.google.com/open?id=1aNMivE2Z900n7IMBEgj1nyezd695-VTB)"
+    ),
+    paste0(
+      '<u>*"Exploring Public Speaking"*</u><br>',
+      "Developing Topics <br>for Your Speech - [Chapter 4](https://drive.google.com/file/d/1BEW83Q-wO5zWvNBjHbf8-E4-U7qR5GpF/view?usp=drive_link)"
+    )
+  ),
+  Assignments = c(
+    "",
+    ""
+  )
+)
+
+schedule |>
+  gt() |>
+  fmt_markdown(columns = c(Readings, Assignments)) |> 
+  cols_width(
+    Content ~ pct(20),
+    Lectures ~ pct(20),
+    Readings ~ pct(40),
+    Assignments ~ pct(20)
+  ) |> 
+  cols_align(
+    align = "left",
+    columns = everything()
+  )
+```
+
 ::: {.week-table tbl-colwidths="[20,20,40,20]"}
 +----------------------------------------+-----------------------------------------+----------------------------------------------------------------------------------------------------------------------+-------------+
 | Content                                | Lectures                                | Readings                                                                                                             | Assignments |
