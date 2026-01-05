@@ -40,7 +40,7 @@ schedule <- tibble(
   Lectures = "The Bigger Questions of Public Speaking",
   Readings = paste0(
     '<u>*"Stand Up, Speak Out"*</u><br>',
-    "Why Public <br>Speaking Matters - [Chapter 1](https://drive.google.com/open?id=1eW6GuodbB7qZsEVSWnib1mRyQp17ugeY)<br>",
+    "Why Public Speaking <br>Matters - [Chapter 1](https://drive.google.com/open?id=1eW6GuodbB7qZsEVSWnib1mRyQp17ugeY)<br>",
     "Ethics - [Chapter 2](https://drive.google.com/open?id=1sRb372zzEWWy-RdT_mWUdemXfHlAjZqP)<br>",
     "Speaking Confidently - [Chapter 3](https://drive.google.com/open?id=1gqsEWOv-FgEgDhGCKi64mPayeCIAQ_yu)"
   ),

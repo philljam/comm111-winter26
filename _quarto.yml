@@ -17,6 +17,8 @@ website:
       text: Assignments
     - href: w26schedule.qmd
       text: Schedule
+    - href: classfiles.qmd
+      text: Files
       
 format:
   html:
