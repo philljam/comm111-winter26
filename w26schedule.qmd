@@ -19,9 +19,9 @@ This page will be updated regularly to include links to assignment submission pa
 +=======================================================================================+=========================================+========================================================================================================+=====================+
 | Introduction to the Course; Why Public Speaking Matters; Ethics; Speaking Confidently | The Bigger Questions of Public Speaking | [*"Stand Up, Speak Out"*]{.underline}\                                                                 | ***Syllabus Quiz*** |
 |                                                                                       |                                         | Why Public\                                                                                            |                     |
-|                                                                                       |                                         | Speaking Matters - [Chapter 1](https://drive.google.com/open?id=1eW6GuodbB7qZsEVSWnib1mRyQp17ugeY){target="_blank"}\    |                     |
-|                                                                                       |                                         | Ethics - [Chapter 2](https://drive.google.com/open?id=1sRb372zzEWWy-RdT_mWUdemXfHlAjZqP){target="_blank"}\              |                     |
-|                                                                                       |                                         | Speaking Confidently - [Chapter 3](https://drive.google.com/open?id=1gqsEWOv-FgEgDhGCKi64mPayeCIAQ_yu){target="_blank"} |                     |
+|                                                                                       |                                         | Speaking Matters - [Chapter 1](https://drive.google.com/open?id=1eW6GuodbB7qZsEVSWnib1mRyQp17ugeY)\    |                     |
+|                                                                                       |                                         | Ethics - [Chapter 2](https://drive.google.com/open?id=1sRb372zzEWWy-RdT_mWUdemXfHlAjZqP)\              |                     |
+|                                                                                       |                                         | Speaking Confidently - [Chapter 3](https://drive.google.com/open?id=1gqsEWOv-FgEgDhGCKi64mPayeCIAQ_yu) |                     |
 +---------------------------------------------------------------------------------------+-----------------------------------------+--------------------------------------------------------------------------------------------------------+---------------------+
 :::
 
@@ -32,13 +32,13 @@ This page will be updated regularly to include links to assignment submission pa
 | Content                                | Lectures                                | Readings                                                                                                             | Assignments |
 +========================================+=========================================+======================================================================================================================+=============+
 | Listening; Audience Analysis; Language | Listening as Part of Public Speaking    | [*"Stand Up, Speak Out"\                                                                                             |             |
-|                                        |                                         | *]{.underline}Listening - [Chapter 4](https://drive.google.com/open?id=1vuKb_0PVgH7dC8n1xPZ2apZ7RcobbF99){target="_blank"}\           |             |
-|                                        |                                         | Audience Analysis - [Chapter 5](https://drive.google.com/open?id=1I76Wjvaxjapi1vBDQdbEfkkryICk_boV){target="_blank"}\                 |             |
-|                                        |                                         | Language - [Chapter 13](https://drive.google.com/open?id=1aNMivE2Z900n7IMBEgj1nyezd695-VTB){target="_blank"}                          |             |
+|                                        |                                         | *]{.underline}Listening - [Chapter 4](https://drive.google.com/open?id=1vuKb_0PVgH7dC8n1xPZ2apZ7RcobbF99)\           |             |
+|                                        |                                         | Audience Analysis - [Chapter 5](https://drive.google.com/open?id=1I76Wjvaxjapi1vBDQdbEfkkryICk_boV)\                 |             |
+|                                        |                                         | Language - [Chapter 13](https://drive.google.com/open?id=1aNMivE2Z900n7IMBEgj1nyezd695-VTB)                          |             |
 +----------------------------------------+-----------------------------------------+----------------------------------------------------------------------------------------------------------------------+-------------+
 |                                        | Audience Analysis, Values, and Language | [*"Exploring Public Speaking"\                                                                                       |             |
 |                                        |                                         | *]{.underline}Developing Topics\                                                                                     |             |
-|                                        |                                         | for Your Speech - [Chapter 4](https://drive.google.com/file/d/1BEW83Q-wO5zWvNBjHbf8-E4-U7qR5GpF/view?usp=drive_link){target="_blank"} |             |
+|                                        |                                         | for Your Speech - [Chapter 4](https://drive.google.com/file/d/1BEW83Q-wO5zWvNBjHbf8-E4-U7qR5GpF/view?usp=drive_link) |             |
 +----------------------------------------+-----------------------------------------+----------------------------------------------------------------------------------------------------------------------+-------------+
 :::
 
@@ -49,9 +49,9 @@ This page will be updated regularly to include links to assignment submission pa
 | Content                                                                           | Lectures             | Readings                                                                                                       | Assignments                           |
 +===================================================================================+======================+================================================================================================================+=======================================+
 | Introductions; Body of the Speech; Conclusions; "Tell Me About Yourself" Speeches | Structuring a Speech | [*"Stand Up, Speak Out"\                                                                                       | ***"Tell Me About Yourself" Speech*** |
-|                                                                                   |                      | *]{.underline}Introductions - [Chapter 9](https://drive.google.com/open?id=1JlkUbxhh7kEw3jNVmiOoe_cpWl8q7mUx){target="_blank"}\ |                                       |
-|                                                                                   |                      | Body of the Speech - [Chapter 10](https://drive.google.com/open?id=1SS3Uzo2xSlr6VaAZpA_IXYsQQ7X-naP-){target="_blank"}\         |                                       |
-|                                                                                   |                      | Conclusions - [Chapter 11](https://drive.google.com/open?id=1ejqWi2KDb_d4-VGpVcQl1jxhggzrPSIO){target="_blank"}                 |                                       |
+|                                                                                   |                      | *]{.underline}Introductions - [Chapter 9](https://drive.google.com/open?id=1JlkUbxhh7kEw3jNVmiOoe_cpWl8q7mUx)\ |                                       |
+|                                                                                   |                      | Body of the Speech - [Chapter 10](https://drive.google.com/open?id=1SS3Uzo2xSlr6VaAZpA_IXYsQQ7X-naP-)\         |                                       |
+|                                                                                   |                      | Conclusions - [Chapter 11](https://drive.google.com/open?id=1ejqWi2KDb_d4-VGpVcQl1jxhggzrPSIO)                 |                                       |
 +-----------------------------------------------------------------------------------+----------------------+----------------------------------------------------------------------------------------------------------------+---------------------------------------+
 :::
 
@@ -62,12 +62,12 @@ This page will be updated regularly to include links to assignment submission pa
 | Content                        | Lectures               | Readings                                                                                                                   | Assignments              |
 +================================+========================+============================================================================================================================+==========================+
 | Delivery; Informative Speaking | Delivering Your Speech | [*"Stand Up, Speak Out"*]{.underline}\                                                                                     | ***Speech Analysis #1*** |
-|                                |                        | Delivery - [Chapter 14](https://drive.google.com/open?id=1UZw5UxrZNCRzVPHrla8_mzD0DP_eq2Cu){target="_blank"}\                               |                          |
-|                                |                        | Informative Speaking - [Chapter 16](https://drive.google.com/open?id=1YOpZI0MnfO6zrhyRzNAy4YNzJd9tBcA5){target="_blank"}                    |                          |
+|                                |                        | Delivery - [Chapter 14](https://drive.google.com/open?id=1UZw5UxrZNCRzVPHrla8_mzD0DP_eq2Cu)\                               |                          |
+|                                |                        | Informative Speaking - [Chapter 16](https://drive.google.com/open?id=1YOpZI0MnfO6zrhyRzNAy4YNzJd9tBcA5)                    |                          |
 +--------------------------------+------------------------+----------------------------------------------------------------------------------------------------------------------------+--------------------------+
 |                                | Speaking to Inform     | [*"Exploring Public Speaking"*]{.underline}\                                                                               |                          |
 |                                |                        | Organizing and\                                                                                                            |                          |
-|                                |                        | Outlining Your Speech - [Chapter 6](https://drive.google.com/file/d/1YPnMB_lzVJGxckE_mxS2CYN7u9rJHpJP/view?usp=drive_link){target="_blank"} |                          |
+|                                |                        | Outlining Your Speech - [Chapter 6](https://drive.google.com/file/d/1YPnMB_lzVJGxckE_mxS2CYN7u9rJHpJP/view?usp=drive_link) |                          |
 +--------------------------------+------------------------+----------------------------------------------------------------------------------------------------------------------------+--------------------------+
 :::
 
@@ -78,8 +78,8 @@ This page will be updated regularly to include links to assignment submission pa
 | Content                               | Lectures               | Readings                                                                                               | Assignments |
 +=======================================+========================+========================================================================================================+=============+
 | Research the Speech; Supporting Sides | Researching the Speech | [*"Stand Up, Speak Out"*]{.underline}\                                                                 |             |
-|                                       |                        | Research the Speech - [Chapter 7](https://drive.google.com/open?id=1ASaNms2KmqJJxgINKQW4Xusz8V8trl0W){target="_blank"}\ |             |
-|                                       |                        | Supporting Sides - [Chapter 8](https://drive.google.com/open?id=1rMcDiG_OyuLaPmKAk8urI2qfuZqTiS0P){target="_blank"}     |             |
+|                                       |                        | Research the Speech - [Chapter 7](https://drive.google.com/open?id=1ASaNms2KmqJJxgINKQW4Xusz8V8trl0W)\ |             |
+|                                       |                        | Supporting Sides - [Chapter 8](https://drive.google.com/open?id=1rMcDiG_OyuLaPmKAk8urI2qfuZqTiS0P)     |             |
 +---------------------------------------+------------------------+--------------------------------------------------------------------------------------------------------+-------------+
 |                                       | Types of Evidence      |                                                                                                        |             |
 +---------------------------------------+------------------------+--------------------------------------------------------------------------------------------------------+-------------+
@@ -105,7 +105,7 @@ This page will be updated regularly to include links to assignment submission pa
 | Content                       | Lectures                | Readings                                                                                               | Assignments |
 +===============================+=========================+========================================================================================================+=============+
 | Persuasive Speaking; Advocacy | Persuasion and Argument | [*"Stand Up, Speak Out"*]{.underline}\                                                                 |             |
-|                               |                         | Persuasive Speaking - [Chapter 17](https://drive.google.com/open?id=1iraqfwq5xyeKk3e_W5_GEH89EgqPUFKX){target="_blank"} |             |
+|                               |                         | Persuasive Speaking - [Chapter 17](https://drive.google.com/open?id=1iraqfwq5xyeKk3e_W5_GEH89EgqPUFKX) |             |
 +-------------------------------+-------------------------+--------------------------------------------------------------------------------------------------------+-------------+
 :::
 
@@ -141,7 +141,7 @@ This page will be updated regularly to include links to assignment submission pa
 | Content                                   | Lectures                       | Readings                                                                                                               | Assignments              |
 +===========================================+================================+========================================================================================================================+==========================+
 | Speaking to Entertain; "Nostalgia" Speech | Entertainment as Communication | [*"Stand Up, Speak Out"\                                                                                               | ***"Nostalgia" Speech\   |
-|                                           |                                | *]{.underline}Speaking to Entertain - [Chapter 18](https://drive.google.com/open?id=1OGEm9RpdDy0iaMQ4FY7b9ttIxu1BE5Ap){target="_blank"} | ***                      |
+|                                           |                                | *]{.underline}Speaking to Entertain - [Chapter 18](https://drive.google.com/open?id=1OGEm9RpdDy0iaMQ4FY7b9ttIxu1BE5Ap) | ***                      |
 +-------------------------------------------+--------------------------------+------------------------------------------------------------------------------------------------------------------------+--------------------------+
 |                                           |                                |                                                                                                                        | ***Speech Analysis #2*** |
 +-------------------------------------------+--------------------------------+------------------------------------------------------------------------------------------------------------------------+--------------------------+
