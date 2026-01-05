@@ -82,7 +82,7 @@ table.gt_table {
 }
 table.gt_table thead th {
   background-color: #03396a !important;
-  color: #ffffff !important;
+  color: #f3f3f3 !important;
   padding: 0.8rem 0.4rem !important;
   text-align: left !important;
   border: none !important;
@@ -91,15 +91,6 @@ table.gt_table tbody td {
   vertical-align: top !important;
   padding: 0.6rem 0.4rem !important;
   border: none !important;
-}
-table.gt_table tbody tr:nth-child(odd) > td {
-  background-color: #f3f3f3 !important;
-}
-table.gt_table tbody tr:nth-child(even) > td {
-  background-color: #ffffff !important;
-}
-table.gt_table tbody tr:only-child > td {
-  background-color: #f3f3f3 !important;
 }
 table.gt_table thead tr:first-child th {
   box-shadow: inset 0 2px 0 #000;

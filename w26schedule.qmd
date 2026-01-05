@@ -16,11 +16,6 @@ format:
               });
           });
           </script>
-          <style>
-          table.gt_table tbody tr:nth-child(odd) > td { background-color: #f3f3f3 !important; }
-          table.gt_table tbody tr:nth-child(even) > td { background-color: #ffffff !important; }
-          table.gt_table tbody tr:only-child > td { background-color: #f3f3f3 !important; }
-          </style>
 execute:
   echo: false
   warning: false
