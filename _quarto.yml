@@ -4,6 +4,8 @@ project:
   render:
     - "*.qmd"
     - "!nopublish/"
+  resources:
+    - classfiles/**
     
 website:
   title: "COMM 111Z"
