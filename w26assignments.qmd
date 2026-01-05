@@ -9,17 +9,18 @@ execute:
   warning: false
 ---
 
-```{r setup, include=FALSE}
+```{r}
+#| include: false
 #| message: false
 
-library(tidyverse)
-library(here)
-library(readxl)
-library(fontawesome)
+# library(tidyverse)
+# library(here)
+# library(readxl)
+# library(fontawesome)
 library(gt)
 library(xfun)
 library(htmltools)
-library(mime)
+# library(mime)
 
 table_style <- function(data) {
   data |> 

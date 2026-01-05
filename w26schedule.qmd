@@ -21,21 +21,46 @@ execute:
   warning: false
 ---
 
+```{r}
+#| include: false
+#| message: false
+
+library(gt)
+library(tibble)
+
+```
+
 This page will be updated regularly to include links to assignment submission pages, which includes assignment-specific information, as well as to have accessible lecture slides for you to review.
 
 ### Week 1: Thinking About Public Speaking
 
-::: {.week-table tbl-colwidths="[20,20,40,20]"}
-+---------------------------------------------------------------------------------------+-----------------------------------------+--------------------------------------------------------------------------------------------------------+---------------------+
-| Content                                                                               | Lectures                                | Readings                                                                                               | Assignments         |
-+=======================================================================================+=========================================+========================================================================================================+=====================+
-| Introduction to the Course; Why Public Speaking Matters; Ethics; Speaking Confidently | The Bigger Questions of Public Speaking | [*"Stand Up, Speak Out"*]{.underline}\                                                                 | ***Syllabus Quiz*** |
-|                                                                                       |                                         | Why Public\                                                                                            |                     |
-|                                                                                       |                                         | Speaking Matters - [Chapter 1](https://drive.google.com/open?id=1eW6GuodbB7qZsEVSWnib1mRyQp17ugeY)\    |                     |
-|                                                                                       |                                         | Ethics - [Chapter 2](https://drive.google.com/open?id=1sRb372zzEWWy-RdT_mWUdemXfHlAjZqP)\              |                     |
-|                                                                                       |                                         | Speaking Confidently - [Chapter 3](https://drive.google.com/open?id=1gqsEWOv-FgEgDhGCKi64mPayeCIAQ_yu) |                     |
-+---------------------------------------------------------------------------------------+-----------------------------------------+--------------------------------------------------------------------------------------------------------+---------------------+
-:::
+```{r}
+schedule <- tibble(
+  Content = "Introduction to the Course; Why Public Speaking Matters; Ethics; Speaking Confidently",
+  Lectures = "The Bigger Questions of Public Speaking",
+  Readings = paste0(
+    '<u>*"Stand Up, Speak Out"*</u><br>',
+    "Why Public <br>Speaking Matters - [Chapter 1](https://drive.google.com/open?id=1eW6GuodbB7qZsEVSWnib1mRyQp17ugeY)<br>",
+    "Ethics - [Chapter 2](https://drive.google.com/open?id=1sRb372zzEWWy-RdT_mWUdemXfHlAjZqP)<br>",
+    "Speaking Confidently - [Chapter 3](https://drive.google.com/open?id=1gqsEWOv-FgEgDhGCKi64mPayeCIAQ_yu)"
+  ),
+  Assignments = "[***Syllabus Quiz***](https://classes.lanecc.edu/mod/assign/view.php?id=4743212)"
+)
+
+schedule |>
+  gt() |>
+  fmt_markdown(columns = c(Readings, Assignments)) |> 
+  cols_width(
+    Content ~ pct(20),
+    Lectures ~ pct(20),
+    Readings ~ pct(40),
+    Assignments ~ pct(20)
+  ) |> 
+  cols_align(
+    align = "left",
+    columns = everything()
+  )
+```
 
 ### Week 2: Preparing to Speak
 
