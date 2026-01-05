@@ -8,10 +8,12 @@ format:
       - text: |
           <script>
           document.addEventListener("DOMContentLoaded", function () {
-            document.querySelectorAll('a[href^="http"]').forEach(a => {
-              a.setAttribute("target", "_blank");
-              a.setAttribute("rel", "noopener");
-            });
+            document
+              .querySelectorAll('a[href^="http"]:not([href^="' + window.location.origin + '"])')
+              .forEach(a => {
+                a.setAttribute("target", "_blank");
+                a.setAttribute("rel", "noopener");
+              });
           });
           </script>
 execute:
