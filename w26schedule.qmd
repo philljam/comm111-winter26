@@ -50,12 +50,6 @@ schedule <- tibble(
 schedule |>
   gt() |>
   fmt_markdown(columns = c(Readings, Assignments)) |> 
-  cols_width(
-    Content ~ pct(20),
-    Lectures ~ pct(20),
-    Readings ~ pct(40),
-    Assignments ~ pct(20)
-  ) |> 
   cols_align(
     align = "left",
     columns = everything()
@@ -95,146 +89,276 @@ schedule <- tibble(
 schedule |>
   gt() |>
   fmt_markdown(columns = c(Readings, Assignments)) |> 
-  cols_width(
-    Content ~ pct(20),
-    Lectures ~ pct(20),
-    Readings ~ pct(40),
-    Assignments ~ pct(20)
-  ) |> 
   cols_align(
     align = "left",
     columns = everything()
   )
 ```
 
-::: {.week-table tbl-colwidths="[20,20,40,20]"}
-+----------------------------------------+-----------------------------------------+----------------------------------------------------------------------------------------------------------------------+-------------+
-| Content                                | Lectures                                | Readings                                                                                                             | Assignments |
-+========================================+=========================================+======================================================================================================================+=============+
-| Listening; Audience Analysis; Language | Listening as Part of Public Speaking    | [*"Stand Up, Speak Out"\                                                                                             |             |
-|                                        |                                         | *]{.underline}Listening - [Chapter 4](https://drive.google.com/open?id=1vuKb_0PVgH7dC8n1xPZ2apZ7RcobbF99)\           |             |
-|                                        |                                         | Audience Analysis - [Chapter 5](https://drive.google.com/open?id=1I76Wjvaxjapi1vBDQdbEfkkryICk_boV)\                 |             |
-|                                        |                                         | Language - [Chapter 13](https://drive.google.com/open?id=1aNMivE2Z900n7IMBEgj1nyezd695-VTB)                          |             |
-+----------------------------------------+-----------------------------------------+----------------------------------------------------------------------------------------------------------------------+-------------+
-|                                        | Audience Analysis, Values, and Language | [*"Exploring Public Speaking"\                                                                                       |             |
-|                                        |                                         | *]{.underline}Developing Topics\                                                                                     |             |
-|                                        |                                         | for Your Speech - [Chapter 4](https://drive.google.com/file/d/1BEW83Q-wO5zWvNBjHbf8-E4-U7qR5GpF/view?usp=drive_link) |             |
-+----------------------------------------+-----------------------------------------+----------------------------------------------------------------------------------------------------------------------+-------------+
-:::
-
 ### Week 3: Crafting Your Speech
 
-::: {.week-table tbl-colwidths="[20,20,40,20]"}
-+-----------------------------------------------------------------------------------+----------------------+----------------------------------------------------------------------------------------------------------------+---------------------------------------+
-| Content                                                                           | Lectures             | Readings                                                                                                       | Assignments                           |
-+===================================================================================+======================+================================================================================================================+=======================================+
-| Introductions; Body of the Speech; Conclusions; "Tell Me About Yourself" Speeches | Structuring a Speech | [*"Stand Up, Speak Out"\                                                                                       | ***"Tell Me About Yourself" Speech*** |
-|                                                                                   |                      | *]{.underline}Introductions - [Chapter 9](https://drive.google.com/open?id=1JlkUbxhh7kEw3jNVmiOoe_cpWl8q7mUx)\ |                                       |
-|                                                                                   |                      | Body of the Speech - [Chapter 10](https://drive.google.com/open?id=1SS3Uzo2xSlr6VaAZpA_IXYsQQ7X-naP-)\         |                                       |
-|                                                                                   |                      | Conclusions - [Chapter 11](https://drive.google.com/open?id=1ejqWi2KDb_d4-VGpVcQl1jxhggzrPSIO)                 |                                       |
-+-----------------------------------------------------------------------------------+----------------------+----------------------------------------------------------------------------------------------------------------+---------------------------------------+
-:::
+```{r}
+schedule <- tibble(
+  Content = 'Introductions; Body of the Speech; Conclusions; "Tell Me About Yourself" Speeches',
+  Lectures = "Structuring a Speech",
+  Readings = paste0(
+      '<u>*"Stand Up, Speak Out"*</u><br>',
+      "Introductions - [Chapter 9](https://drive.google.com/open?id=1JlkUbxhh7kEw3jNVmiOoe_cpWl8q7mUx)<br>",
+      "Body of the Speech - [Chapter 10](https://drive.google.com/open?id=1SS3Uzo2xSlr6VaAZpA_IXYsQQ7X-naP-)<br>",
+      "Conclusions - [Chapter 11](https://drive.google.com/open?id=1ejqWi2KDb_d4-VGpVcQl1jxhggzrPSIO)"
+    ),
+  Assignments = '[***"Tell Me About Yourself" Speech***](https://classes.lanecc.edu/mod/assign/view.php?id=4743214)'
+)
+
+schedule |>
+  gt() |>
+  fmt_markdown(columns = c(Readings, Assignments)) |> 
+  cols_align(
+    align = "left",
+    columns = everything()
+  )
+```
 
 ### Week 4: Informative Speaking
 
-::: {.week-table tbl-colwidths="[20,20,40,20]"}
-+--------------------------------+------------------------+----------------------------------------------------------------------------------------------------------------------------+--------------------------+
-| Content                        | Lectures               | Readings                                                                                                                   | Assignments              |
-+================================+========================+============================================================================================================================+==========================+
-| Delivery; Informative Speaking | Delivering Your Speech | [*"Stand Up, Speak Out"*]{.underline}\                                                                                     | ***Speech Analysis #1*** |
-|                                |                        | Delivery - [Chapter 14](https://drive.google.com/open?id=1UZw5UxrZNCRzVPHrla8_mzD0DP_eq2Cu)\                               |                          |
-|                                |                        | Informative Speaking - [Chapter 16](https://drive.google.com/open?id=1YOpZI0MnfO6zrhyRzNAy4YNzJd9tBcA5)                    |                          |
-+--------------------------------+------------------------+----------------------------------------------------------------------------------------------------------------------------+--------------------------+
-|                                | Speaking to Inform     | [*"Exploring Public Speaking"*]{.underline}\                                                                               |                          |
-|                                |                        | Organizing and\                                                                                                            |                          |
-|                                |                        | Outlining Your Speech - [Chapter 6](https://drive.google.com/file/d/1YPnMB_lzVJGxckE_mxS2CYN7u9rJHpJP/view?usp=drive_link) |                          |
-+--------------------------------+------------------------+----------------------------------------------------------------------------------------------------------------------------+--------------------------+
-:::
+```{r}
+schedule <- tibble(
+  Content = c(
+    "Delivery; Informative Speaking",
+    ""
+  ),
+  Lectures = c(
+    "Delivering Your Speech",
+    "Speaking to Inform"
+  ),
+  Readings = c(
+    paste0(
+      '<u>*"Stand Up, Speak Out"*</u><br>',
+      "Delivery - [Chapter 14](https://drive.google.com/open?id=1UZw5UxrZNCRzVPHrla8_mzD0DP_eq2Cu)<br>",
+      "Informative Speaking - [Chapter 16](https://drive.google.com/open?id=1YOpZI0MnfO6zrhyRzNAy4YNzJd9tBcA5)<br>"
+    ),
+    paste0(
+      '<u>*"Exploring Public Speaking"*</u><br>',
+      "Organizing and Outlining <br>Your Speech - [Chapter 6](https://drive.google.com/file/d/1YPnMB_lzVJGxckE_mxS2CYN7u9rJHpJP/view?usp=drive_link)"
+    )
+  ),
+  Assignments = c(
+    "[***Speech Analysis #1***](https://classes.lanecc.edu/mod/assign/view.php?id=4743218)",
+    ""
+  )
+)
+
+schedule |>
+  gt() |>
+  fmt_markdown(columns = c(Readings, Assignments)) |> 
+  cols_align(
+    align = "left",
+    columns = everything()
+  )
+```
 
 ### Week 5: Research & Support
 
-::: {.week-table tbl-colwidths="[20,20,40,20]"}
-+---------------------------------------+------------------------+--------------------------------------------------------------------------------------------------------+-------------+
-| Content                               | Lectures               | Readings                                                                                               | Assignments |
-+=======================================+========================+========================================================================================================+=============+
-| Research the Speech; Supporting Sides | Researching the Speech | [*"Stand Up, Speak Out"*]{.underline}\                                                                 |             |
-|                                       |                        | Research the Speech - [Chapter 7](https://drive.google.com/open?id=1ASaNms2KmqJJxgINKQW4Xusz8V8trl0W)\ |             |
-|                                       |                        | Supporting Sides - [Chapter 8](https://drive.google.com/open?id=1rMcDiG_OyuLaPmKAk8urI2qfuZqTiS0P)     |             |
-+---------------------------------------+------------------------+--------------------------------------------------------------------------------------------------------+-------------+
-|                                       | Types of Evidence      |                                                                                                        |             |
-+---------------------------------------+------------------------+--------------------------------------------------------------------------------------------------------+-------------+
-:::
+```{r}
+schedule <- tibble(
+  Content = c(
+    "Research the Speech; Supporting Sides",
+    ""
+  ),
+  Lectures = c(
+    "Researching the Speech",
+    "Types of Evidence"
+  ),
+  Readings = c(
+    paste0(
+      '<u>*"Stand Up, Speak Out"*</u><br>',
+      "Research the Speech - [Chapter 7](https://drive.google.com/open?id=1ASaNms2KmqJJxgINKQW4Xusz8V8trl0W)<br>",
+      "Supporting Sides - [Chapter 8](https://drive.google.com/open?id=1rMcDiG_OyuLaPmKAk8urI2qfuZqTiS0P)<br>"
+    ),
+    ""
+  ),
+  Assignments = c(
+    "",
+    ""
+  )
+)
+
+schedule |>
+  gt() |>
+  fmt_markdown(columns = c(Readings, Assignments)) |> 
+  cols_align(
+    align = "left",
+    columns = everything()
+  )
+```
 
 ### Week 6: Informative Speeches
 
-::: {.week-table tbl-colwidths="[20,20,40,20]"}
-+----------------------+-------------------------------+-----------------------+------------------------------------+
-| Content              | Lectures                      | Readings              | Assignments                        |
-+======================+===============================+=======================+====================================+
-| Informative Speeches | No lecture material this week | No readings this week | ***Informative Speech\             |
-|                      |                               |                       | ***                                |
-+----------------------+-------------------------------+-----------------------+------------------------------------+
-|                      |                               |                       | ***Informative Speech Critiques*** |
-+----------------------+-------------------------------+-----------------------+------------------------------------+
-:::
+```{r}
+schedule <- tibble(
+  Content = c(
+    "Informative <br>Speeches",
+    ""
+  ),
+  Lectures = c(
+    "No lecture material this week",
+    ""
+  ),
+  Readings = c(
+    "No readings this week",
+    ""
+  ),
+  Assignments = c(
+    "[***Informative Speech***](https://classes.lanecc.edu/mod/assign/view.php?id=4743486)",
+    "[***Informative Speech Critiques***](https://classes.lanecc.edu/mod/assign/view.php?id=4743489)"
+  )
+)
+
+schedule |>
+  gt() |>
+  fmt_markdown(columns = c(Content, Readings, Assignments)) |> 
+  cols_align(
+    align = "left",
+    columns = everything()
+  )
+```
+
 
 ### Week 7: Persuasive Speaking & Advocacy
 
-::: {.week-table tbl-colwidths="[20,20,40,20]"}
-+-------------------------------+-------------------------+--------------------------------------------------------------------------------------------------------+-------------+
-| Content                       | Lectures                | Readings                                                                                               | Assignments |
-+===============================+=========================+========================================================================================================+=============+
-| Persuasive Speaking; Advocacy | Persuasion and Argument | [*"Stand Up, Speak Out"*]{.underline}\                                                                 |             |
-|                               |                         | Persuasive Speaking - [Chapter 17](https://drive.google.com/open?id=1iraqfwq5xyeKk3e_W5_GEH89EgqPUFKX) |             |
-+-------------------------------+-------------------------+--------------------------------------------------------------------------------------------------------+-------------+
-:::
+```{r}
+schedule <- tibble(
+  Content = "Persuasive Speaking; Advocacy",
+  Lectures = "Persuasion and Argumentation",
+  Readings = paste0(
+      '<u>*"Stand Up, Speak Out"*</u><br>',
+      "Persuasive Speaking - [Chapter 17](https://drive.google.com/open?id=1iraqfwq5xyeKk3e_W5_GEH89EgqPUFKX)<br>"
+    ),
+  Assignments = ""
+)
+
+schedule |>
+  gt() |>
+  fmt_markdown(columns = c(Readings, Assignments)) |> 
+  cols_align(
+    align = "left",
+    columns = everything()
+  )
+```
 
 ### Week 8: Structuring an Argument & Fallacies
 
-::: {.week-table tbl-colwidths="[20,20,40,20]"}
-+------------------------------------+----------------------------+-----------------------+--------------+
-| Content                            | Lectures                   | Readings              | Assignments  |
-+====================================+============================+=======================+==============+
-| Structuring an Argument; Fallacies | Structuring Your Argument  | No readings this week |              |
-+------------------------------------+----------------------------+-----------------------+--------------+
-|                                    | Fallacies in Argumentation |                       |              |
-+------------------------------------+----------------------------+-----------------------+--------------+
-:::
+```{r}
+schedule <- tibble(
+  Content = c(
+    "Structuring an <br> Argument; Fallacies",
+    ""
+  ),
+  Lectures = c(
+    "Structuring Your Argument",
+    "Fallacies in Argumentation"
+  ),
+  Readings = c(
+    "No readings this week",
+    ""
+  ),
+  Assignments = c(
+    "",
+    ""
+  )
+)
+
+schedule |>
+  gt() |>
+  fmt_markdown(columns = c(Content, Readings, Assignments)) |> 
+  cols_align(
+    align = "left",
+    columns = everything()
+  )
+```
 
 ### Week 9: Advocacy Speeches
 
-::: {.week-table tbl-colwidths="[20,20,40,20]"}
-+-------------------+-------------------------------+-----------------------+---------------------------------+
-| Content           | Lectures                      | Readings              | Assignments                     |
-+===================+===============================+=======================+=================================+
-| Advocacy Speeches | No lecture material this week | No readings this week | ***Advocacy Speech\             |
-|                   |                               |                       | ***                             |
-+-------------------+-------------------------------+-----------------------+---------------------------------+
-|                   |                               |                       | ***Advocacy Speech Critiques*** |
-+-------------------+-------------------------------+-----------------------+---------------------------------+
-:::
+```{r}
+schedule <- tibble(
+  Content = c(
+    "Advocacy <br>Speeches",
+    ""
+  ),
+  Lectures = c(
+    "No lecture material this week",
+    ""
+  ),
+  Readings = c(
+    "No readings this week",
+    ""
+  ),
+  Assignments = c(
+    "[***Advocacy Speech***](https://classes.lanecc.edu/mod/assign/view.php?id=4743491)",
+    "[***Advocacy Speech Critiques***](https://classes.lanecc.edu/mod/assign/view.php?id=4743493)"
+  )
+)
+
+schedule |>
+  gt() |>
+  fmt_markdown(columns = c(Content, Readings, Assignments)) |> 
+  cols_align(
+    align = "left",
+    columns = everything()
+  )
+```
 
 ### Week 10: Speaking to Entertain
 
-::: {.week-table tbl-colwidths="[20,20,40,20]"}
-+-------------------------------------------+--------------------------------+------------------------------------------------------------------------------------------------------------------------+--------------------------+
-| Content                                   | Lectures                       | Readings                                                                                                               | Assignments              |
-+===========================================+================================+========================================================================================================================+==========================+
-| Speaking to Entertain; "Nostalgia" Speech | Entertainment as Communication | [*"Stand Up, Speak Out"\                                                                                               | ***"Nostalgia" Speech\   |
-|                                           |                                | *]{.underline}Speaking to Entertain - [Chapter 18](https://drive.google.com/open?id=1OGEm9RpdDy0iaMQ4FY7b9ttIxu1BE5Ap) | ***                      |
-+-------------------------------------------+--------------------------------+------------------------------------------------------------------------------------------------------------------------+--------------------------+
-|                                           |                                |                                                                                                                        | ***Speech Analysis #2*** |
-+-------------------------------------------+--------------------------------+------------------------------------------------------------------------------------------------------------------------+--------------------------+
-:::
+```{r}
+schedule <- tibble(
+  Content = c(
+    'Speaking to Entertain; "Nostalgia" Speeches',
+    ""
+  ),
+  Lectures = c(
+    "Entertainment as Communication",
+    ""
+  ),
+  Readings = c(
+    paste0(
+      '<u>*"Stand Up, Speak Out"*</u><br>',
+      "Speaking to Entertain - [Chapter 18](https://drive.google.com/open?id=1OGEm9RpdDy0iaMQ4FY7b9ttIxu1BE5Ap)<br>"
+    ),
+    ""
+  ),
+  Assignments = c(
+    '[***"Nostalgia" Speech***](https://classes.lanecc.edu/mod/assign/view.php?id=4743497)',
+    "[***Speech Analysis #2***](https://classes.lanecc.edu/mod/assign/view.php?id=4743500)"
+  )
+)
+
+schedule |>
+  gt() |>
+  fmt_markdown(columns = c(Content, Readings, Assignments)) |> 
+  cols_align(
+    align = "left",
+    columns = everything()
+  )
+```
 
 ### Finals Week
+::: {.schedule-tight}
+```{r}
+schedule <- tibble(
+  Content = "Finals Week",
+  Lectures = "",
+  Readings = "",
+  Assignments = "***NOTHING. Happy Spring Break!***"
+)
 
-::: {.week-table tbl-colwidths="[20,20,40,20]"}
-+-------------+------------+------------+------------------------------------+
-| Content     | Lectures   | Readings   | Assignments                        |
-+=============+============+============+====================================+
-| Finals Week |            |            | ***NOTHING. Happy Spring Break!*** |
-+-------------+------------+------------+------------------------------------+
+schedule |>
+  gt() |>
+  fmt_markdown(columns = c(Content, Readings, Assignments)) |> 
+  cols_align(
+    align = "left",
+    columns = everything()
+  )
+```
 :::
-
 ***\*This schedule is tentative and subject to change at the instructor's discretion.***
