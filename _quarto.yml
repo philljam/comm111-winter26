@@ -15,7 +15,7 @@ website:
     - href: w26syllabus.qmd
       text: Syllabus
     right:
-    - href: w26assignments.qmd
+    - href: assignments.qmd
       text: Assignments
     - href: w26schedule.qmd
       text: Schedule

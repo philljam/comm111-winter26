@@ -72,7 +72,7 @@ In order to strengthen the speech and communication programs at Lane Community C
 
 ### Course Tasks
 
-The following material is created to comprehensively address the key learning objectives of the course, familiarize you with different elements of public speaking, and provide opportunities to deliver a variety of speeches that specialize in different applicable areas. Each assignment's detailed description can be found on the [Assignments](w26assignments.qmd) page.
+The following material is created to comprehensively address the key learning objectives of the course, familiarize you with different elements of public speaking, and provide opportunities to deliver a variety of speeches that specialize in different applicable areas. Each assignment's detailed description can be found on the [Assignments](assignments.qmd) page.
 
 ::: tasks-table
 |                                 |                                |

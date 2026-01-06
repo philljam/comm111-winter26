@@ -10,7 +10,7 @@ format:
     toc: false
 ---
 
-Hello and welcome to Public Speaking! This course is meant to familiarize you with concepts related to delivering speeches to audiences in both formal and informal settings. Below are links to important information about the course and course resources that will be helpful throughout the term. Familiarize yourself with the resources below. Once you have thoroughly reviewed them, you may proceed through the course by first checking out the course [Syllabus](w26syllabus.qmd) for a complete listing of course-related information and expectations, as well as my classroom-specific policies. Next, I would recommend looking at the [Assignments](w26assignments.qmd) page for a more thorough breakdown of the workload expectation in this class, and the [Schedule](w26schedule.qmd) page for a week-by-week run-through.
+Hello and welcome to Public Speaking! This course is meant to familiarize you with concepts related to delivering speeches to audiences in both formal and informal settings. Below are links to important information about the course and course resources that will be helpful throughout the term. Familiarize yourself with the resources below. Once you have thoroughly reviewed them, you may proceed through the course by first checking out the course [Syllabus](w26syllabus.qmd) for a complete listing of course-related information and expectations, as well as my classroom-specific policies. Next, I would recommend looking at the [Assignments](assignments.qmd) page for a more thorough breakdown of the workload expectation in this class, and the [Schedule](w26schedule.qmd) page for a week-by-week run-through.
 
 ## Course Resources
 
