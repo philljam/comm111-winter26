@@ -52,7 +52,7 @@ schedule <- tibble(
 
 schedule |>
   gt() |>
-  fmt_markdown(columns = c(Readings, Assignments)) |> 
+  fmt_markdown(columns = c(Content, Readings, Assignments)) |> 
   cols_align(
     align = "left",
     columns = everything()
