@@ -52,7 +52,7 @@ schedule <- tibble(
 
 schedule |>
   gt() |>
-  fmt_markdown(columns = c(Lectures, Readings, Assignments)) |> 
+  fmt_markdown(columns = everything()) |> 
   cols_align(
     align = "left",
     columns = everything()
@@ -91,7 +91,7 @@ schedule <- tibble(
 
 schedule |>
   gt() |>
-  fmt_markdown(columns = c(Readings, Assignments)) |> 
+  fmt_markdown(columns = everything()) |> 
   cols_align(
     align = "left",
     columns = everything()
@@ -115,7 +115,7 @@ schedule <- tibble(
 
 schedule |>
   gt() |>
-  fmt_markdown(columns = c(Readings, Assignments)) |> 
+  fmt_markdown(columns = everything()) |> 
   cols_align(
     align = "left",
     columns = everything()
@@ -153,7 +153,7 @@ schedule <- tibble(
 
 schedule |>
   gt() |>
-  fmt_markdown(columns = c(Readings, Assignments)) |> 
+  fmt_markdown(columns = everything()) |> 
   cols_align(
     align = "left",
     columns = everything()
@@ -188,7 +188,7 @@ schedule <- tibble(
 
 schedule |>
   gt() |>
-  fmt_markdown(columns = c(Readings, Assignments)) |> 
+  fmt_markdown(columns = everything()) |> 
   cols_align(
     align = "left",
     columns = everything()
@@ -219,7 +219,7 @@ schedule <- tibble(
 
 schedule |>
   gt() |>
-  fmt_markdown(columns = c(Content, Readings, Assignments)) |> 
+  fmt_markdown(columns = everything()) |> 
   cols_align(
     align = "left",
     columns = everything()
@@ -242,7 +242,7 @@ schedule <- tibble(
 
 schedule |>
   gt() |>
-  fmt_markdown(columns = c(Readings, Assignments)) |> 
+  fmt_markdown(columns = everything()) |> 
   cols_align(
     align = "left",
     columns = everything()
@@ -273,7 +273,7 @@ schedule <- tibble(
 
 schedule |>
   gt() |>
-  fmt_markdown(columns = c(Content, Readings, Assignments)) |> 
+  fmt_markdown(columns = everything()) |> 
   cols_align(
     align = "left",
     columns = everything()
@@ -304,7 +304,7 @@ schedule <- tibble(
 
 schedule |>
   gt() |>
-  fmt_markdown(columns = c(Content, Readings, Assignments)) |> 
+  fmt_markdown(columns = everything()) |> 
   cols_align(
     align = "left",
     columns = everything()
@@ -338,7 +338,7 @@ schedule <- tibble(
 
 schedule |>
   gt() |>
-  fmt_markdown(columns = c(Content, Readings, Assignments)) |> 
+  fmt_markdown(columns = everything()) |> 
   cols_align(
     align = "left",
     columns = everything()
@@ -357,7 +357,7 @@ schedule <- tibble(
 
 schedule |>
   gt() |>
-  fmt_markdown(columns = c(Content, Readings, Assignments)) |> 
+  fmt_markdown(columns = everything()) |> 
   cols_align(
     align = "left",
     columns = everything()
