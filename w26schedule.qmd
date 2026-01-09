@@ -40,7 +40,7 @@ This page will be updated regularly to include links to assignment submission pa
 ```{r}
 schedule <- tibble(
   Content = "Introduction to the Course; Why Public Speaking Matters; Ethics; Speaking Confidently",
-  Lectures = "[The Bigger Questions of Public Speaking](classfiles/week1day2.pptx)",
+  Lectures = "[The Bigger Questions of Public Speaking](classfiles/slides/week1day2.pptx)",
   Readings = paste0(
     '<u>*"Stand Up, Speak Out"*</u><br>',
     "Why Public Speaking <br>Matters - [Chapter 1](https://drive.google.com/open?id=1eW6GuodbB7qZsEVSWnib1mRyQp17ugeY)<br>",
@@ -52,7 +52,7 @@ schedule <- tibble(
 
 schedule |>
   gt() |>
-  fmt_markdown(columns = c(Content, Readings, Assignments)) |> 
+  fmt_markdown(columns = c(Lectures, Readings, Assignments)) |> 
   cols_align(
     align = "left",
     columns = everything()
