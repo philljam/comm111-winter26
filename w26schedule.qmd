@@ -38,6 +38,8 @@ This page will be updated regularly to include links to assignment submission pa
 ### Week 1: Thinking About Public Speaking
 
 ```{r}
+#| label: week-1
+
 schedule <- tibble(
   Content = "Introduction to the Course; Why Public Speaking Matters; Ethics; Speaking Confidently",
   Lectures = "[The Bigger Questions of Public Speaking](classfiles/slides/week1day2.pdf)",
@@ -62,13 +64,15 @@ schedule |>
 ### Week 2: Preparing to Speak
 
 ```{r}
+#| label: week-2
+
 schedule <- tibble(
   Content = c(
     "Listening; Audience Analysis; Language",
     ""
   ),
   Lectures = c(
-    "Listening as Part of Public Speaking",
+    "[Listening as Part of Public Speaking](classfiles/slides/week2day1.pdf)",
     "Audience Analysis, Values, and Language"
   ),
   Readings = c(
@@ -101,6 +105,8 @@ schedule |>
 ### Week 3: Crafting Your Speech
 
 ```{r}
+#| label: week-3
+
 schedule <- tibble(
   Content = 'Introductions; Body of the Speech; Conclusions; "Tell Me About Yourself" Speeches',
   Lectures = "Structuring a Speech",
@@ -125,6 +131,8 @@ schedule |>
 ### Week 4: Informative Speaking
 
 ```{r}
+#| label: week-4
+
 schedule <- tibble(
   Content = c(
     "Delivery; Informative Speaking",
@@ -163,6 +171,8 @@ schedule |>
 ### Week 5: Research & Support
 
 ```{r}
+#| label: week-5
+
 schedule <- tibble(
   Content = c(
     "Research the Speech; Supporting Sides",
@@ -198,6 +208,8 @@ schedule |>
 ### Week 6: Informative Speeches
 
 ```{r}
+#| label: week-6
+
 schedule <- tibble(
   Content = c(
     "Informative <br>Speeches",
@@ -230,6 +242,8 @@ schedule |>
 ### Week 7: Persuasive Speaking & Advocacy
 
 ```{r}
+#| label: week-7
+
 schedule <- tibble(
   Content = "Persuasive Speaking; Advocacy",
   Lectures = "Persuasion and Argumentation",
@@ -252,6 +266,8 @@ schedule |>
 ### Week 8: Structuring an Argument & Fallacies
 
 ```{r}
+#| label: week-8
+
 schedule <- tibble(
   Content = c(
     "Structuring an <br> Argument; Fallacies",
@@ -283,6 +299,8 @@ schedule |>
 ### Week 9: Advocacy Speeches
 
 ```{r}
+#| label: week-9
+
 schedule <- tibble(
   Content = c(
     "Advocacy <br>Speeches",
@@ -314,6 +332,8 @@ schedule |>
 ### Week 10: Speaking to Entertain
 
 ```{r}
+#| label: week-10
+
 schedule <- tibble(
   Content = c(
     'Speaking to Entertain; "Nostalgia" Speeches',
@@ -348,6 +368,8 @@ schedule |>
 ### Finals Week
 ::: {.schedule-tight}
 ```{r}
+#| label: finals-week
+
 schedule <- tibble(
   Content = "Finals Week",
   Lectures = "",
