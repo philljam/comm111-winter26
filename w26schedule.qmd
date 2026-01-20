@@ -108,17 +108,28 @@ schedule |>
 #| label: week-3
 
 schedule <- tibble(
-  Content = 'Introductions; Body of the Speech; Conclusions; "Tell Me About Yourself" Speeches',
-  Lectures = "Structuring a Speech",
-  Readings = paste0(
+  Content = c(
+    'Introductions; Body of the Speech; Conclusions; "Tell Me About Yourself" Speeches',
+    ""
+  ),
+  Lectures = c(
+    "[Structuring a Speech](classfiles/slides/week3day1.pdf)",
+    "Speaking with Confidence"
+  ),
+  Readings = c(
+    paste0(
       '<u>*"Stand Up, Speak Out"*</u><br>',
       "Introductions - [Chapter 9](https://drive.google.com/open?id=1JlkUbxhh7kEw3jNVmiOoe_cpWl8q7mUx)<br>",
       "Body of the Speech - [Chapter 10](https://drive.google.com/open?id=1SS3Uzo2xSlr6VaAZpA_IXYsQQ7X-naP-)<br>",
       "Conclusions - [Chapter 11](https://drive.google.com/open?id=1ejqWi2KDb_d4-VGpVcQl1jxhggzrPSIO)"
     ),
-  Assignments = '[***"Tell Me About Yourself" Speech***](https://classes.lanecc.edu/mod/assign/view.php?id=4743214)'
+    ""
+  ),
+  Assignments = c(
+    '[***"Tell Me About Yourself" Speech***](https://classes.lanecc.edu/mod/assign/view.php?id=4743214)',
+    ""
+  )
 )
-
 schedule |>
   gt() |>
   fmt_markdown(columns = everything()) |> 
