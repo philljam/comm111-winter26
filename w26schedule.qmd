@@ -114,7 +114,7 @@ schedule <- tibble(
   ),
   Lectures = c(
     "[Structuring a Speech](classfiles/slides/week3day1.pdf)",
-    "Speaking with Confidence"
+    "[Speaking with Confidence](classfiles/slides/week3day2.pdf)"
   ),
   Readings = c(
     paste0(
