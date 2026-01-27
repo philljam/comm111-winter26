@@ -150,7 +150,7 @@ schedule <- tibble(
     ""
   ),
   Lectures = c(
-    "Delivering Your Speech",
+    "[Delivering Your Speech](classfiles/slides/week4day1.pdf)",
     "Speaking to Inform"
   ),
   Readings = c(
