@@ -256,13 +256,25 @@ schedule |>
 #| label: week-7
 
 schedule <- tibble(
-  Content = "Persuasive Speaking; Advocacy",
-  Lectures = "Persuasion and Argumentation",
-  Readings = paste0(
+  Content = c(
+    "Persuasive Speaking; Advocacy; Structuring an Argument",
+    ""
+  ),
+  Lectures = c(
+    "[Persuasion and Argumentation](classfiles/slides/week7day1.pdf)",
+    "Structuring Your Argument"
+  ),
+  Readings = c(
+    paste0(
       '<u>*"Stand Up, Speak Out"*</u><br>',
-      "Persuasive Speaking - [Chapter 17](https://drive.google.com/open?id=1iraqfwq5xyeKk3e_W5_GEH89EgqPUFKX)<br>"
+      "Persuasive Speaking - [Chapter 17](https://drive.google.com/open?id=1iraqfwq5xyeKk3e_W5_GEH89EgqPUFKX)<br>",
+      ""
+    )
     ),
-  Assignments = ""
+  Assignments = c(
+    "",
+    ""
+  )
 )
 
 schedule |>
@@ -280,22 +292,10 @@ schedule |>
 #| label: week-8
 
 schedule <- tibble(
-  Content = c(
-    "Structuring an <br> Argument; Fallacies",
-    ""
-  ),
-  Lectures = c(
-    "Structuring Your Argument",
-    "Fallacies in Argumentation"
-  ),
-  Readings = c(
-    "No readings this week",
-    ""
-  ),
-  Assignments = c(
-    "",
-    ""
-  )
+  Content = "Fallacies of <br>Persuasive Speech",
+  Lectures = "Fallacies in Argumentation",
+  Readings = "No readings this week",
+  Assignments = ""
 )
 
 schedule |>
