@@ -262,7 +262,7 @@ schedule <- tibble(
   ),
   Lectures = c(
     "[Persuasion and Argumentation](classfiles/slides/week7day1.pdf)",
-    "Structuring Your Argument"
+    "[Structuring Your Argument](classfiles/slides/week7day2.pdf)"
   ),
   Readings = c(
     paste0(
