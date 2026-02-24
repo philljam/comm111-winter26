@@ -293,9 +293,9 @@ schedule |>
 
 schedule <- tibble(
   Content = "Fallacies of <br>Persuasive Speech",
-  Lectures = "Fallacies in Argumentation",
+  Lectures = "[Fallacies in Argumentation](classfiles/slides/week8day1.pdf)",
   Readings = "No readings this week",
-  Assignments = ""
+  Assignments = "[***Impromptu Speech***](https://classes.lanecc.edu/mod/assign/view.php?id=4743499)"
 )
 
 schedule |>
